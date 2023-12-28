@@ -26,7 +26,7 @@ export default function Home() {
 
   // userData state that will be used to get usr location
   const [userData, setUserData] = useState(null);
-
+  console.log({userData})
   // check if user from Black List
   const [isBlackListed, setIsBlackListed] = useState(false);
 
@@ -66,7 +66,7 @@ export default function Home() {
     if (!IsBlackListEmpty) {
       if (userData) {
         // check if the user country is in the blackList
-        if (process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(userData.country)) {
+        if (process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES?.includes(userData?.country)) {
           // set isBlackListed to true
           setIsBlackListed(true);
         }
