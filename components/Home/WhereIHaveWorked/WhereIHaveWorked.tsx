@@ -127,7 +127,7 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="Mirinda Web"
+            CompanyName="Huawei Pk"
             BarPosition={32}
             BarAvobePosition={129}
             DescriptionJob="TrouveTavoie"

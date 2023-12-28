@@ -41,9 +41,10 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Instagram Icon */}
             {/* <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} /> */}
             {/* Kaggle Icon */}
-            <IconClickableWithAnimation Icon={KaggleIcon} href={"https://www.kaggle.com/yourprofile"} /> {/* Add your Kaggle profile URL */}
+            <IconClickableWithAnimation Icon={KaggleIcon} href={"https://www.kaggle.com/rehanafzaal"} /> {/* Add your Kaggle profile URL */}
+
             {/* Youtube Icon */}
-            <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://youtube.com/@asadullahkhan3808"} />
+            {/* <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://youtube.com/"} /> */}
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
         </div>

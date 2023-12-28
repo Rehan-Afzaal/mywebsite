@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Docker", "Ether.js", "Solidity"],
-    ["Node.js", "TypeScript", "AWS", "React.js", "web3.js"],
+    ["Generative AI", "Python", "Langchain", "LLM", "Machine Learning"],
+    ["whisper", "VIT", "AI Chatbots", "speech-to-text", "Computer Vision"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -29,21 +29,23 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Asadullah khan, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
-                would become essential in pursuing this interest, marking the start of my programming journey.
+              Hello! I'm Rehan, a dynamic data scientist and AI/ML engineer. I specialize in creating 
+              intelligent solutions that make a difference. From developing personalized chatbots and 
+              efficient PDF analyzers using LLM model, LangChain Llamaindex. I replicating pivotal AI components 
+              for platforms like submagic.co,
+               I thrive on crafting innovative applications. My portfolio includes impactful projects such 
+               as Pneumonia Detection from Chest X-rays, and for market price perdection Timeseries Analysis. 
+               I'm dedicated to exploring the endless possibilities at the intersection of technology 
+               and creativity, continually pushing the boundaries of AI and ML.
               </span>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
-                refine my expertise in desktop and web development. In the realm of{" "}
-                <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
-                advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
-                learning drives me to make a positive impact and advance technology.
+              With a passion for leveraging artificial intelligence for positive impact, I've honed my skills
+               in various domains. My commitment to excellence is reflected in each project I undertake, as I
+                strive to not only meet but exceed the expectations of the ever-evolving landscape of artificial 
+                intelligence. Join me on this exciting journey where technology meets innovation, and let's shape
+                 the future together.
               </span>
             </div>
             {/* <div className="font-Header tracking-wide">
