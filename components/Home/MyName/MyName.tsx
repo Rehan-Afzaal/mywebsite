@@ -57,8 +57,8 @@ export default function MyName(props: { finishedLoading: boolean }) {
         digital experiences. My current area of focus is in the <span className="text-AAsecondary">ML, Gene AI and Data scientist</span>,
         where I actively engage in developing <br className="2xl:block hidden"/>
         and innovative solutions that leverage the <span className="text-AAsecondary">power of AI and machine learning </span>to decode complex genetic data{" "}
-        <span className="text-AAsecondary">Smart Contracts</span>  on the{" "}
-        <span className="text-AAsecondary">Blockchain</span>. 
+        <span className="text-AAsecondary">ai</span>  on the{" "}
+        <span className="text-AAsecondary">ml</span>. 
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
         front-end components to enable seamless user interactions. */}
       </motion.h3>
