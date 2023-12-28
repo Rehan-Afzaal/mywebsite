@@ -1,0 +1,20 @@
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.bak
+
+# Build artifacts
+node_modules/
+build/
+dist/
+
+# Sensitive information
+.env
+config.json
+
+# Personal files
+README.txt
+LICENSE
