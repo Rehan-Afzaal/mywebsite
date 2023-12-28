@@ -5,6 +5,7 @@ import LinkedinIcon from "../../Icons/LinkedinIcon";
 import InstagramIcon from "../../Icons/InstagramIcon";
 import YoutubeIcon from "../../Icons/YoutubeIcon";
 import KaggleIcon from "../../Icons/KaggleIcon"; // Import KaggleIcon
+import UpworkIcon from "../../Icons/UpworkIcon"; // Import KaggleIcon
 
 
 
@@ -42,6 +43,8 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} /> */}
             {/* Kaggle Icon */}
             <IconClickableWithAnimation Icon={KaggleIcon} href={"https://www.kaggle.com/rehanafzaal"} /> {/* Add your Kaggle profile URL */}
+            {/* Upwork Icon */}
+            <IconClickableWithAnimation Icon={UpworkIcon} href={"https://www.upwork.com/freelancers/rehanafzaal"} />
 
             {/* Youtube Icon */}
             {/* <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://youtube.com/"} /> */}

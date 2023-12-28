@@ -151,6 +151,7 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+              <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
               Built a super smart AI system that streamlines video subtitling, taking inspiration from Submagic.co
               . This Python-powered wonder automatically extracts audio, accurately transcribes speech, and outputs
                ready-to-use SRT files. It even understands who's talking and cleans text for smooth reading, 
@@ -159,7 +160,7 @@ export default function SomethingIveBuilt() {
                 of efficiency and engagement. Now go forth and conquer the video world with your awesome subtitling
                 AI!
                   <span className="text-AAsecondary"> blockchain technology</span>. 
-                {/* </p> */}
+                </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
