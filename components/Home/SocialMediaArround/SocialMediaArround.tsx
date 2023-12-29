@@ -6,7 +6,7 @@ import InstagramIcon from "../../Icons/InstagramIcon";
 import YoutubeIcon from "../../Icons/YoutubeIcon";
 import KaggleIcon from "../../Icons/KaggleIcon"; // Import KaggleIcon
 import UpworkIcon from "../../Icons/UpworkIcon"; // Import KaggleIcon
-
+import TwitterIcon from "../../Icons/TwitterIcon"; // Import TwitterIcon
 
 
 const IconClickableWithAnimation = props => {
@@ -44,8 +44,10 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Kaggle Icon */}
             <IconClickableWithAnimation Icon={KaggleIcon} href={"https://www.kaggle.com/rehanafzaal"} /> {/* Add your Kaggle profile URL */}
             {/* Upwork Icon */}
-            <IconClickableWithAnimation Icon={UpworkIcon} href={"https://www.upwork.com/freelancers/rehanafzaal"} />
-
+            <IconClickableWithAnimation Icon={UpworkIcon} href={"https://www.upwork.com/freelancers/~0139a3956895f454ad"} />
+             {/* Twitter Icon */}
+            <IconClickableWithAnimation Icon={TwitterIcon} href={"https://www.upwork.com/freelancers/~0139a3956895f454ad"} />
+ 
             {/* Youtube Icon */}
             {/* <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://youtube.com/"} /> */}
           </div>
